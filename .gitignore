@@ -1,0 +1,18 @@
+### IntelliJ IDEA ###
+.idea
+
+### VS Code ###
+.vscode/
+
+### maven
+target
+
+### gradle
+.gradle
+build
+!gradle/wrapper/gradle-wrapper.jar
+
+### project
+log
+logs
+output

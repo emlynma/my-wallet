@@ -1,0 +1,28 @@
+server:
+  port: 8010
+  servlet:
+    context-path: /passport
+
+spring:
+  application:
+    name: passport
+  profiles:
+    active: dev
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
