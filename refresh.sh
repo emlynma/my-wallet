@@ -16,4 +16,5 @@ mvn clean install -pl common,component -DskipTests
 mvn clean
 
 # 清理运行产物
-rm -rf ./logs
+find . -type d -name "log" -exec rm -rf {} +
+find . -type d -name "output" -exec rm -rf {} +

@@ -8,7 +8,7 @@
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 
     <!-- 定义日志文件存储路径 -->
-    <property name="LOG_PATH" value="./logs"/>
+    <property name="LOG_PATH" value="./log"/>
 
     <!-- 控制台日志记录 -->
     <include resource="org/springframework/boot/logging/logback/console-appender.xml"/>
